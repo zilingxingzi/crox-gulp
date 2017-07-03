@@ -53,17 +53,3 @@ gulp.task('watch', () => {
 - `gulp watch` 开启 `watch`，实时检测Crox模板文件改动
 
 - `gulp crox` 执行所有匹配文件的翻译
-
-## package.json Demo
-
-```js
-{
-  "name": "test-crox-grunt",
-  "dependencies": {
-    "crox": "^1.4.4",
-    "grunt": "~0.4.2",
-    "grunt-contrib-watch": "*",
-    "crox-grunt": "*"
-  }
-}
-```
