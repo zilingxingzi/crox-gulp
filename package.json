@@ -1,0 +1,33 @@
+{
+  "name": "crox-gulp",
+  "version": "0.0.1",
+  "description": "Crox task plugin for Gulp.",
+  "homepage": "https://github.com/zilingxingzi/crox-gulp",
+  "main": "index.js",
+  "keywords": [
+    "Crox",
+    "Gulp",
+    "Task",
+    "Watch"
+  ],
+  "engines": {
+    "node": ">= 0.8.17"
+  },
+  "dependencies": {
+    "crox": "^1.4.4",
+    "js-beautify": "~1.4.0",
+    "through2": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "~4.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zilingxingzi/crox-gulp.git"
+  },
+  "scripts": {},
+  "preferGlobal": false
+}
