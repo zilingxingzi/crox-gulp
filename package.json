@@ -1,6 +1,6 @@
 {
   "name": "crox-gulp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Crox task plugin for Gulp.",
   "homepage": "https://github.com/zilingxingzi/crox-gulp",
   "main": "index.js",
