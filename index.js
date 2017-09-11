@@ -34,12 +34,12 @@ function doJsBeautify(str) {
 var compilers = {
   vm: crox.compileToVM,
   php: crox.compileToPhp,
-  js: function(tpl) {return crox.compile(tpl, getOptions()).toString()},
-  kissy: function(tpl) {return helper.compileToKissy(tpl, getOptions())},
-  kissyfn: function(tpl) {return helper.compileToKissyFn(tpl, getOptions())},
-  cmd: function(tpl) {return helper.compileToCMD(tpl, getOptions())},
-  amd: function(tpl) {return helper.compileToAMD(tpl, getOptions())},
-  nodejs: function(tpl) {return helper.compileToCommonJS(tpl, getOptions())}
+  js: function(filename) {console.log('crox compile file: ', filename); return crox.compile(filename, getOptions()).toString()},
+  kissy: function(filename) {console.log('crox compile file: ', filename); return helper.compileToKissy(filename, getOptions())},
+  kissyfn: function(filename) {console.log('crox compile file: ', filename); return helper.compileToKissyFn(filename, getOptions())},
+  cmd: function(filename) {console.log('crox compile file: ', filename); return helper.compileToCMD(filename, getOptions())},
+  amd: function(filename) {console.log('crox compile file: ', filename); return helper.compileToAMD(filename, getOptions())},
+  nodejs: function(filename) {console.log('crox compile file: ', filename); return helper.compileToCommonJS(filename, getOptions())}
 };
 
 compilers.commonjs = compilers.nodejs;
